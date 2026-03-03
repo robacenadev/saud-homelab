@@ -112,13 +112,6 @@ sudo apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabb
 # Veja: docs/03_01-zabbix-telegram.md
 ```
 
----
-
-##  Segurança
-
-- **Nunca** suba tokens do Telegram, senhas ou API keys no repositório
-- Use variáveis de ambiente ou arquivos `.env` (já no `.gitignore`)
-- IPs internos são da rede local e não expõem risco externo
 
 ---
 
