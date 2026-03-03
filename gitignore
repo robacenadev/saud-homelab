@@ -1,0 +1,106 @@
+# ================================
+# Arquivos Sensíveis - NUNCA subir
+# ================================
+.env
+.env.*
+*.env
+secrets/
+credentials/
+
+# Tokens e chaves
+*token*
+*secret*
+*password*
+*credential*
+
+# ================================
+# Zabbix
+# ================================
+# Dumps do banco de dados
+*.sql
+*.sql.gz
+*.dump
+
+# Logs
+*.log
+zabbix_server.log
+zabbix_agentd.log
+
+# Cache do Zabbix
+/var/lib/zabbix/
+
+# Config com dados reais (use o .example)
+zabbix_agentd.conf
+zabbix_server.conf
+!*.example
+
+# ================================
+# Scripts com dados sensíveis
+# ================================
+# Mantenha apenas versões sem token/senha
+telegram_notification_real.py
+
+# ================================
+# Arquivos de VM
+# ================================
+*.vhd
+*.vhdx
+*.vmdk
+*.ova
+*.ovf
+*.iso
+
+# ================================
+# Sistema Operacional
+# ================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ================================
+# Editores
+# ================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# Obsidian
+.obsidian/
+*.canvas
+
+# JetBrains
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ================================
+# Outros
+# ================================
+*.tmp
+*.bak
+*.backup
+node_modules/

@@ -1,0 +1,24 @@
+# ============================================
+# zabbix_agentd.conf.example
+# Exemplo de configuração do Zabbix Agent
+# Renomeie para zabbix_agentd.conf e ajuste
+# ============================================
+
+# Endereço do Zabbix Server
+Server=192.168.x.110
+
+# Endereço para modo ativo
+ServerActive=192.168.x.110
+
+# Hostname do host monitorado (deve bater com o cadastro no Zabbix)
+Hostname=MeuHost
+
+# Porta do agente
+ListenPort=10050
+
+# Log
+LogFile=/var/log/zabbix/zabbix_agentd.log
+LogFileSize=10
+
+# Timeout de operações
+Timeout=10
