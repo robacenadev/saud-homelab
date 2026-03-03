@@ -136,7 +136,7 @@ sudo apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabb
 ## 👤 Autor
 
 **Gustavo Saud**  
-🔗 [github.com/seu-usuario](https://github.com/seu-usuario)
+🔗 https://github.com/robacenadev
 
 ---
 
