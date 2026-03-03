@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Sobre o Projeto
+##  Sobre o Projeto
 
 **Saud Homelab** é um homelab criado por **Gustavo Saud** para estudo e prática de ferramentas de T.I., com ênfase em:
 
@@ -70,7 +70,7 @@ saud-homelab/
 
 ---
 
-## 🚀 Guias Disponíveis
+##  Guias Disponíveis
 
 | Guia | Descrição |
 |------|-----------|
@@ -114,7 +114,7 @@ sudo apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabb
 
 ---
 
-## 🔐 Segurança
+##  Segurança
 
 - **Nunca** suba tokens do Telegram, senhas ou API keys no repositório
 - Use variáveis de ambiente ou arquivos `.env` (já no `.gitignore`)
@@ -122,7 +122,7 @@ sudo apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabb
 
 ---
 
-## 📌 Roadmap
+##  Roadmap
 
 - [x] Zabbix Server funcionando
 - [x] Monitoramento do PC principal
@@ -133,7 +133,7 @@ sudo apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabb
 
 ---
 
-## 👤 Autor
+##  Autor
 
 **Gustavo Saud**  
 🔗 https://github.com/robacenadev
