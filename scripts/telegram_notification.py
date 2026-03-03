@@ -8,7 +8,6 @@ Uso:
 
 Configuração:
     Substitua SEU_BOT_TOKEN_AQUI pelo token gerado pelo @BotFather.
-    ⚠️ Nunca suba o token real para o repositório!
 """
 
 import telebot
