@@ -120,7 +120,7 @@ sudo apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabb
 - [x] Zabbix Server funcionando
 - [x] Monitoramento do PC principal
 - [x] Alertas via Telegram
-- [ ] Dashboard customizado no Zabbix
+- [x] Dashboard customizado no Zabbix
 - [ ] Templates exportados (.yaml)
 - [ ] Monitoramento de containers Docker
 
