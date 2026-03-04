@@ -74,7 +74,7 @@ saud-homelab/
 
 | Guia | Descrição |
 |------|-----------|
-| [Introdução ao Ambiente](docs/00-introducao.md) | Visão geral do Cloud Saud |
+| [Introdução ao Ambiente](docs/00-introducao.md) | Visão geral do HomeLab |
 | [Topologia](docs/01-topologia.md) | Diagrama e componentes do lab |
 | [Zabbix + Telegram](docs/03_01-zabbix-telegram.md) | Configurar alertas via Telegram com suporte a múltiplos usuários e host groups |
 
